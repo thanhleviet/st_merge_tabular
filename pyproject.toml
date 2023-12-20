@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "st-merge-bakta"
+version = "0.1.0"
+description = "Merging bakta output"
+authors = ["thanhleviet <thanh.le-viet@quadram.ac.uk>"]
+license = "GPL-3-or-later"
+readme = "README.md"
+packages = [{include = "st_merge_bakta"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.29.0"
+pandas = "^2.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
